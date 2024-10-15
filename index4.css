@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+:root{
+    background-color: rgb(60, 18, 68);
+    --start-bt:rgb(63, 171, 6);
+    --split-btn:rgb(10, 112, 236);
+    --reset-btn:rgb(249, 34, 34);
+    --btn-bg:rgb(223, 193, 216);
+    --btn-color:rgb(215, 72, 201);
+    --h2color:rgb(244, 248, 116);
+    --start-hver:rgb(86, 239, 96);
+    --split-hover:rgb(157, 183, 255);;
+    --reset-hover:rgb(239, 149, 149);
+    --text-color:white;
+    text-align: center;
+    font-size: 62.5%;
+    font-family: "Chakra Petch", sans-serif;
+}
+.tittle{
+    color: var(--h2color);
+    font-size: 50px;
+
+}
+.timer{
+    display: flex;
+    font-size: 100px;
+    color: aliceblue;
+    margin: 10px 0px 0px 460px;
+}
+.button{
+    width: 150px;
+    height: 60px;
+    margin: 40px 10px ;
+    background-color:var(--btn-bg);
+    border: none;
+    border-radius: 100px;
+    font-size:3rem ;
+    font-weight: 800;
+}
+button:hover{
+    cursor: pointer;
+}
+.start{
+    color:var(--start-bt);
+}
+.start:hover{
+    background-color: rgb(150, 244, 147);
+}
+
+.split{
+    color: var(--split-btn);
+}
+.split:hover{
+    background-color: var(--split-hover);
+}
+.reset{
+    color: var(--reset-btn);
+}
+.reset:hover{
+    background-color: var(--reset-hover);
+}
+.stop{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: var(--text-color);
+    font-size: 25px;
+    border-radius: 100px;
+    border:2px solid red;
+}
+li{
+   list-style-type: none;
+   color:var(--text-color);
+   font-size: 5rem;
+}

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap');
+:root {
+    background-color: rgb(188, 146, 72);
+    --text-color: rgb(255, 255, 255);
+    --primary-color: rgb(248, 217, 170);
+    --scondry-color: rgb(96, 74, 36);
+    --hover-color: rgb(230, 9, 9);
+    font-size: 62.5%;
+    --bg-nav-text: rgb(54, 130, 135);
+    font-family: "Noto Sans Arabic", sans-serif;
+}
+
+.navbar {
+    margin: 60px 0px 0px 1100px;
+    /* margin-left: 1100px */
+    position: relative;
+
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    width: 200px;
+    height: 60px;
+    font-size: 1.7rem;
+}
+
+.topic {
+    background-color: var(--primary-color);
+    width: 180px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: right;
+
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link::before {
+    content: "<  ";
+}
+
+.link:hover {
+    cursor: pointer;
+    color: var(--bg-nav-text);
+}
+
+
+
+.history {
+    background-color: var(--bg-nav-text);
+    color: var(--primary-color);
+    font-size: 1.7rem;
+    width: 50vw;
+    max-height: 10vh;
+    margin: 5px;
+    padding: 5px 20px 2px 0px;
+    text-align: right;
+    border-radius: 8px;
+    overflow: hidden;
+    position: absolute;
+    right: 200px;
+    top: 55px;
+    border: 1px solid var(--primary-color);
+}
+
+.history-collaps {
+    display: none;
+
+}
+
+.psychology {
+    background-color: var(--bg-nav-text);
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    width: 50vw;
+    max-height: 30vh;
+    margin: 5px;
+    padding: 5px 20px 2px 0px;
+    text-align: right;
+    border-radius: 8px;
+    overflow: hidden;
+    position: absolute;
+    right: 200px;
+    top: 112px;
+    border: 1px solid var(--primary-color);
+
+}
+
+.psychology-collaps {
+    display: none;
+}
+
+.novel {
+    background-color: var(--bg-nav-text);
+    color: var(--primary-color);
+    font-size: 1.7rem;
+    width: 50vw;
+    max-height: 30vh;
+    margin: 5px;
+    padding: 5px 20px 2px 0px;
+    text-align: right;
+    border-radius: 8px;
+    overflow: hidden;
+    position: absolute;
+    right: 200px;
+    top: 170px;
+    border: 1px solid var(--primary-color);
+
+}
+
+.novel-collaps {
+    display: none;
+}

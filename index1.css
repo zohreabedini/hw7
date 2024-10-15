@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    line-height: 50px;
+    background-image:linear-gradient(to right, #103c63,rgb(252, 189, 241),rgb(255, 229, 98));
+    color: rgb(89, 29, 133);
+}
+
+button {
+    width: 80px;
+    height: 60px;
+    margin: 7px;
+    font-size: 32px;
+    border-radius: 12px;
+    
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(175, 177, 180);
+
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hwcalc.css">
+</head>
+
+<body>
+    <div class="calcbody">
+        <table class="show">
+           <tr class="show__result">
+           </tr>
+        </table>
+        <table class="current">
+            <tr id="inputs" class="current__inputs">
+            </tr>
+        </table>
+        <div class="calcbody__keys">
+            <div class="calcbody__keys__button"> <button class="calcbody__keys__button__ac button " onclick="clearScreen()">AC</button></div>
+            <div class="calcbody__keys__button"><button class="calcbody__keys__button__c button"onclick="clearScreen()">C</button></div>
+            <div class="calcbody__keys__button"><button class="calcbody__keys__button__percent oprator" onclick="display('%')">%</button></div>
+            <div class="calcbody__keys__button"> <button class="calcbody__keys__button__dividedby oprator" onclick="display('/')">/</button></div>
+            <div class="calcbody__keys__button"><button class="calcbody__keys__button__seven button-white button" onclick="display('7')">7</button></div>
+            <div class="calcbody__keys__button"> <button class="calcbody__keys__button__eigth button-white button" onclick="display('8')">8</button></div>
+            <div class="calcbody__keys__button"><button class="calcbody__keys__button__nine button-white button"onclick="display('9')" >9</button></div>
+            <div class="calcbody__keys__button"><button class="calcbody__keys__button__multiplied oprator" onclick="display('*')">*</button></div>
+            <div class="calcbody__keys__button"><button class="calcbody__keys__button__four button-white button" onclick="display('4')">4</button></div>
+            <div class="calcbody__keys__button"><button class="calcbody__keys__button__five button-white button" onclick="display('5')">5</button></div>
+            <div class="calcbody__keys__button"><button class="calcbody__keys__button__six button-white button" onclick="display('6')">6</button></div>
+            <div class="calcbody__keys__button"><button class="calcbody__keys__button__minus oprator " onclick="display('-')">-</button></div>
+            <div class="calcbody__keys__button"><button class="calcbody__keys__button__one button-white button" onclick="display('1')">1</button></div>
+            <div class="calcbody__keys__button"><button class="calcbody__keys__button__two button-white button" onclick="display('2')">2</buttondiv></div>
+            <div class="calcbody__keys__button"><button class="calcbody__keys__button__three button-white button" onclick="display('3')">3</button></div>
+            <div class="calcbody__keys__button"><button class="calcbody__keys__button__pluse oprator" onclick="display('+')">+</button></div>
+            <div class="calcbody__keys__button"><button class="calcbody__keys__button__zero button-white button" onclick="display('0')">0</button></div>
+            <div class="calcbody__keys__button"><button class="calcbody__keys__button__date button-white button" onclick="display('.')">.</button></div>
+            <div class="calcbody__keys__button__result"><button class="calcbody__keys__button__equal oprator" onclick="solve()">=</button></div>
+        
+
+
+
+            
+        </div>
+        
+    </div>
+<script src="calc.js"></script>
+</body>
+
+</html
